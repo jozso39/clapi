@@ -1,0 +1,8 @@
+Clapi
+Copyright 2026 Jozef Čambora
+
+The Claude Code transcript conversion in src/main/claude-import.ts is ported from
+oh-my-pi's ClaudeSessionStore (packages/coding-agent/src/session/claude-session-store.ts),
+Copyright (c) Stencil Labs and oh-my-pi contributors, MIT License.
+The session title-slot serialization in src/main/session-files.ts follows oh-my-pi's
+session-title-slot.ts (MIT).

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22303f"/>
+      <stop offset="1" stop-color="#0b121b"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="101.5" y="101.5" width="821" height="821" rx="185" fill="none" stroke="url(#rim)" stroke-width="3"/>
+  <!-- π -->
+  <g fill="#ebf0f6">
+    <rect x="286" y="374" width="452" height="74" rx="37"/>
+    <path d="M410 430 h74 v190 c0 64 -10 106 -44 150 a37 37 0 0 1 -60 -42 c22 -32 30 -58 30 -108 z"/>
+    <path d="M574 430 h74 v236 c0 30 10 44 34 44 a37 37 0 0 1 0 74 c-72 0 -108 -42 -108 -118 z"/>
+  </g>
+  <!-- Claude's spark -->
+  <g stroke="#d97757" stroke-width="30" stroke-linecap="round" transform="translate(742 262)">
+    <line x1="0" y1="-66" x2="0" y2="66"/>
+    <line x1="-66" y1="0" x2="66" y2="0"/>
+    <line x1="-47" y1="-47" x2="47" y2="47"/>
+    <line x1="-47" y1="47" x2="47" y2="-47"/>
+  </g>
+</svg>
